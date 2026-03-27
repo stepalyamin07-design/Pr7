@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35303.130
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PR7_PiT", "PR7_PiT\PR7_PiT.csproj", "{28871C91-6EB3-4F19-B9EB-F9CE6DAF5F53}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{28871C91-6EB3-4F19-B9EB-F9CE6DAF5F53}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{28871C91-6EB3-4F19-B9EB-F9CE6DAF5F53}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{28871C91-6EB3-4F19-B9EB-F9CE6DAF5F53}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{28871C91-6EB3-4F19-B9EB-F9CE6DAF5F53}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {430C583C-E0C4-4E3D-8D3A-55C71A9A296F}
+	EndGlobalSection
+EndGlobal
