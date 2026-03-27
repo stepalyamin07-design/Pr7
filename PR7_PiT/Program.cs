@@ -1,15 +1,27 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace PR7_PiT
+class ArrayExample
 {
-    internal class Program
+    /// <summary>
+    /// Точка входа в приложение. Демонстрирует перебор символов строки и вывод каждого символа на отдельной строке.
+    /// </summary>
+    /// <param name="args">Аргументы командной строки (не используются).</param>
+    static void Main()
     {
-        static void Main(string[] args)
+        char[] letters = { 'f', 'r', 'e', 'd', ' ', 's', 'm', 'i', 't', 'h' };
+        string name = "";
+        int[] a = new int[10];
+        for (int i = 0; i < letters.Length; i++)
         {
+            name += letters[i];
+            a[i] = i + 1;
+            SendMessage(name, a[i]);
         }
+        Console.ReadKey();
+    }
+
+    static void SendMessage(string name, int msg)
+    {
+        Console.WriteLine("Hello, " + name + "! Count to " + msg);
     }
 }
